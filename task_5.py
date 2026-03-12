@@ -19,7 +19,7 @@ class Football(Results):
         return f"Футбольных поражений: {self.losses}"
 
     def total_points(self):
-        total = 2* self.victories + self.draws
+        total = 3* self.victories + self.draws
         return f"Общее количество очков: {total}"            
 
 
